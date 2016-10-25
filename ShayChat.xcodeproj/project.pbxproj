@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192EEE2AAD81F23F79B79DAE /* Pods_ShayChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D262BF22743189A519A199 /* Pods_ShayChat.framework */; };
 		DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */; };
-		DE0EC81D1DBFA3AF00B3798A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EC81C1DBFA3AF00B3798A /* ViewController.swift */; };
+		DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */; };
 		DE0EC8201DBFA3AF00B3798A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */; };
 		DE0EC8221DBFA3AF00B3798A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */; };
 		DE0EC8251DBFA3AF00B3798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */; };
+		DE0EC82D1DBFA7C100B3798A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE0EC8171DBFA3AF00B3798A /* ShayChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShayChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE0EC81C1DBFA3AF00B3798A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DE0EC81F1DBFA3AF00B3798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0EC8241DBFA3AF00B3798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0EC8261DBFA3AF00B3798A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F353649D2E530E7946DBCB35 /* Pods-ShayChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShayChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat.release.xcconfig"; sourceTree = "<group>"; };
+		F437140A66B61212323E8C35 /* Pods-ShayChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShayChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D262BF22743189A519A199 /* Pods_ShayChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShayChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192EEE2AAD81F23F79B79DAE /* Pods_ShayChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F4C7D475AB627E1A93D321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D262BF22743189A519A199 /* Pods_ShayChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C631B19541371F1B68EE4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F437140A66B61212323E8C35 /* Pods-ShayChat.debug.xcconfig */,
+				F353649D2E530E7946DBCB35 /* Pods-ShayChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE0EC80E1DBFA3AF00B3798A = {
 			isa = PBXGroup;
 			children = (
 				DE0EC8191DBFA3AF00B3798A /* ShayChat */,
 				DE0EC8181DBFA3AF00B3798A /* Products */,
+				A7C631B19541371F1B68EE4D /* Pods */,
+				75F4C7D475AB627E1A93D321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */,
-				DE0EC81C1DBFA3AF00B3798A /* ViewController.swift */,
+				DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */,
 				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
 				DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */,
 				DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */,
 				DE0EC8261DBFA3AF00B3798A /* Info.plist */,
+				DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */,
 			);
 			path = ShayChat;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE0EC8291DBFA3AF00B3798A /* Build configuration list for PBXNativeTarget "ShayChat" */;
 			buildPhases = (
+				3FE8B9F05A0086DAC86ACC2F /* [CP] Check Pods Manifest.lock */,
 				DE0EC8131DBFA3AF00B3798A /* Sources */,
 				DE0EC8141DBFA3AF00B3798A /* Frameworks */,
 				DE0EC8151DBFA3AF00B3798A /* Resources */,
+				DF30A713B913BB90C2CB0B67 /* [CP] Embed Pods Frameworks */,
+				5D2E6CA84D0216D761815032 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EC8251DBFA3AF00B3798A /* LaunchScreen.storyboard in Resources */,
+				DE0EC82D1DBFA7C100B3798A /* GoogleService-Info.plist in Resources */,
 				DE0EC8221DBFA3AF00B3798A /* Assets.xcassets in Resources */,
 				DE0EC8201DBFA3AF00B3798A /* Main.storyboard in Resources */,
 			);
@@ -132,12 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FE8B9F05A0086DAC86ACC2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2E6CA84D0216D761815032 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF30A713B913BB90C2CB0B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE0EC8131DBFA3AF00B3798A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0EC81D1DBFA3AF00B3798A /* ViewController.swift in Sources */,
+				DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */,
 				DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +338,7 @@
 		};
 		DE0EC82A1DBFA3AF00B3798A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F437140A66B61212323E8C35 /* Pods-ShayChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ABPMREC53;
@@ -272,6 +352,7 @@
 		};
 		DE0EC82B1DBFA3AF00B3798A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F353649D2E530E7946DBCB35 /* Pods-ShayChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ABPMREC53;
@@ -302,6 +383,7 @@
 				DE0EC82B1DBFA3AF00B3798A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
