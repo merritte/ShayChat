@@ -15,6 +15,7 @@
 		DE0EC8251DBFA3AF00B3798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */; };
 		DE0EC82D1DBFA7C100B3798A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */; };
 		DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */; };
+		DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEDC92DD1DC1753000AEB43A /* ShayChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShayChat.entitlements; sourceTree = "<group>"; };
 		DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		F353649D2E530E7946DBCB35 /* Pods-ShayChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShayChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat.release.xcconfig"; sourceTree = "<group>"; };
 		F437140A66B61212323E8C35 /* Pods-ShayChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShayChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShayChat/Pods-ShayChat.debug.xcconfig"; sourceTree = "<group>"; };
 		F7D262BF22743189A519A199 /* Pods_ShayChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShayChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 				DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */,
 				DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */,
 				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
+				DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */,
 				DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */,
 				DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */,
 				DE0EC8261DBFA3AF00B3798A /* Info.plist */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */,
+				DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */,
 				DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */,
 				DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */,
 			);
