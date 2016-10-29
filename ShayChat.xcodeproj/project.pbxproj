@@ -14,6 +14,7 @@
 		DE0EC8221DBFA3AF00B3798A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */; };
 		DE0EC8251DBFA3AF00B3798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */; };
 		DE0EC82D1DBFA7C100B3798A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */; };
+		DE4973291DC4DB1500362EDD /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */; };
 		DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */; };
 		DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		DE0EC8241DBFA3AF00B3798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0EC8261DBFA3AF00B3798A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		DEDC92DD1DC1753000AEB43A /* ShayChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShayChat.entitlements; sourceTree = "<group>"; };
 		DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */,
 				DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */,
 				DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */,
+				DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */,
 				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
 				DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */,
 				DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			files = (
 				DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */,
 				DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */,
+				DE4973291DC4DB1500362EDD /* SelectUserViewController.swift in Sources */,
 				DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */,
 				DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */,
 			);

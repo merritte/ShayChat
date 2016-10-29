@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class PictureViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -51,6 +52,33 @@ class PictureViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func nextTapped(_ sender: AnyObject) {
+        
+        nextButton.isEnabled = false
+        
+        let imagesFolder =
+            FIRStorage.storage().reference().child("images")
+        
+        let imageData = UIImageJPEGRepresentation(imageView.image!, 0.1)!
+        
+        
+        imagesFolder.child("\(NSUUID().uuidString).jpg").put(imageData, metadata: nil, completion: {(metadata, error) in
+            print("----------------we tried to upload--------------")
+            if error != nil {
+                print("we had an error: \(error)")
+            }else{
+                
+                print(metadata?.downloadURL())
+                
+                self.performSegue(withIdentifier: "selectUserSegue", sender: nil)
+            }
+        })
+        
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
     }
     
 }
