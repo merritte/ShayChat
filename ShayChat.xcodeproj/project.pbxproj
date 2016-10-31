@@ -15,6 +15,7 @@
 		DE0EC8251DBFA3AF00B3798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */; };
 		DE0EC82D1DBFA7C100B3798A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */; };
 		DE4973291DC4DB1500362EDD /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */; };
+		DE7053EE1DC7DFF20080F507 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7053ED1DC7DFF20080F507 /* user.swift */; };
 		DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */; };
 		DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		DE0EC8261DBFA3AF00B3798A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		DE7053ED1DC7DFF20080F507 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		DEDC92DD1DC1753000AEB43A /* ShayChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShayChat.entitlements; sourceTree = "<group>"; };
 		DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
@@ -87,19 +89,36 @@
 		DE0EC8191DBFA3AF00B3798A /* ShayChat */ = {
 			isa = PBXGroup;
 			children = (
+				DE7053F11DC7EA960080F507 /* Models */,
+				DE7053F01DC7EA890080F507 /* ViewControllers */,
 				DEDC92DD1DC1753000AEB43A /* ShayChat.entitlements */,
 				DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */,
-				DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */,
-				DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */,
-				DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */,
 				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
-				DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */,
 				DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */,
 				DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */,
 				DE0EC8261DBFA3AF00B3798A /* Info.plist */,
 				DE0EC82C1DBFA7C100B3798A /* GoogleService-Info.plist */,
 			);
 			path = ShayChat;
+			sourceTree = "<group>";
+		};
+		DE7053F01DC7EA890080F507 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */,
+				DE4973281DC4DB1500362EDD /* SelectUserViewController.swift */,
+				DEDC92E01DC2EFD300AEB43A /* PictureViewController.swift */,
+				DEDC92DE1DC175C800AEB43A /* SnapsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE7053F11DC7EA960080F507 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE7053ED1DC7DFF20080F507 /* user.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 			files = (
 				DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */,
 				DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */,
+				DE7053EE1DC7DFF20080F507 /* user.swift in Sources */,
 				DE4973291DC4DB1500362EDD /* SelectUserViewController.swift in Sources */,
 				DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */,
 				DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */,
