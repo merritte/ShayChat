@@ -53,6 +53,13 @@ class SelectUserViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let user = users[indexPath.row]
+        
+        let snap = ["from":user.email, "description":"hola", "imageURL":"wwww.image.co"]
+        
+        FIRDatabase.database().reference().child("users").child(user.uid).child("snaps").childByAutoId().setValue(snap)
+    }
     
 }
