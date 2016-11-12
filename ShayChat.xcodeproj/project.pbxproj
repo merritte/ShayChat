@@ -91,9 +91,9 @@
 			children = (
 				DE7053F11DC7EA960080F507 /* Models */,
 				DE7053F01DC7EA890080F507 /* ViewControllers */,
+				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
 				DEDC92DD1DC1753000AEB43A /* ShayChat.entitlements */,
 				DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */,
-				DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */,
 				DE0EC8211DBFA3AF00B3798A /* Assets.xcassets */,
 				DE0EC8231DBFA3AF00B3798A /* LaunchScreen.storyboard */,
 				DE0EC8261DBFA3AF00B3798A /* Info.plist */,
