@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		192EEE2AAD81F23F79B79DAE /* Pods_ShayChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D262BF22743189A519A199 /* Pods_ShayChat.framework */; };
+		DE07C08F1DE3F21200A77431 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07C08E1DE3F21200A77431 /* Snap.swift */; };
 		DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */; };
 		DE0EC81D1DBFA3AF00B3798A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */; };
 		DE0EC8201DBFA3AF00B3798A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0EC81E1DBFA3AF00B3798A /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE07C08E1DE3F21200A77431 /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		DE0EC8171DBFA3AF00B3798A /* ShayChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShayChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0EC81A1DBFA3AF00B3798A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0EC81C1DBFA3AF00B3798A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7053ED1DC7DFF20080F507 /* user.swift */,
+				DE07C08E1DE3F21200A77431 /* Snap.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				DEDC92E11DC2EFD300AEB43A /* PictureViewController.swift in Sources */,
 				DE7053EE1DC7DFF20080F507 /* user.swift in Sources */,
 				DE4973291DC4DB1500362EDD /* SelectUserViewController.swift in Sources */,
+				DE07C08F1DE3F21200A77431 /* Snap.swift in Sources */,
 				DE0EC81B1DBFA3AF00B3798A /* AppDelegate.swift in Sources */,
 				DEDC92DF1DC175C800AEB43A /* SnapsViewController.swift in Sources */,
 			);
